@@ -71,3 +71,56 @@ print(s.title())
 print(s.upper())
 print(s.lower())
 print(s.replace('Mike', 'Nancy'))
+
+r = [1, 2, 3, 4, 5, 6, 7, 3 ,3, 3]
+print(r.index(5))
+print(r.count(3))
+
+if 10 in r:
+     print('true')
+else:
+     print('false')
+
+r.sort()
+print(r)
+r.sort(reverse=True)
+print(r)
+r.reverse()
+print(r)
+
+s = 'My name is Mike.'
+to_split = s.split(' ')
+print(to_split)
+
+x = ' '.join(to_split)
+print(x)
+
+i = [1,2,3,4,5]
+j = i
+j[0] = 100
+print('j =', j)
+print('i =', i)
+
+x = [1, 2, 3, 4, 5]
+# y = x.copy()
+y = x[:]
+y[0] = 100
+print('y =', y)
+print('x =', x)
+
+a = 100
+b = 200
+print(a, b )
+a, b = b, a
+print(a, b)
+
+a = dict(a=10, b=20)
+type(b)
+print(b)
+
+"""
+afsajfklasjfksagjahb
+fasjfklajs;fja;kjf
+jksjflasjf;ajka;
+
+"""
